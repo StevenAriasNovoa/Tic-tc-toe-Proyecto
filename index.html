@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="src/estilos/estilos.css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script>
+
+</head>
+<body>
+    
+<div id="titulo">
+    <h1 id="titulo">ENJOY THE GAME</h1> 
+<a href="indexstar.html"> <button id="inicio">STAR</button></a>
+</div>
+
+<div class="carcasa-juego">
+<div id="cuadrado">
+<div class="caja-botones">
+    <button id="reiniciar">RESET</button> 
+    <button id="turno">TURNO</button>
+</div >
+    <div class="botones">
+        <div class="celdas" id="celda00"></div>
+        <div class="celdas" id="celda01"></div>
+        <div class="celdas" id="celda02"></div>
+        <div class="celdas" id="celda10"></div>
+        <div class="celdas" id="celda11"></div>
+        <div class="celdas" id="celda12"></div>
+        <div class="celdas" id="celda20"></div>
+        <div class="celdas" id="celda21"></div>
+        <div class="celdas" id="celda22"></div> 
+</div>  
+<div class="caja-botones">
+    <div  id="idBotonG">GANADAS P1:</div>
+    <div  id="idBotonG2">GANADAS IA:</div>    
+</div>
+<div id="circulitos">
+<div class="circuloP1">0</div>
+<div class="circuloIA">0</div>
+</div>
+</div> 
+</div>
+<!-- <audio class="audio2" id="audioVictoria" controls autoplay
+src="src/audios/ambient-anticipation-floored-eleri-118161.mp3" type="audio/mp3"> </audio> -->
+</body>
+<script src="src/javascrip/tictac.js"></script>
+</html> 

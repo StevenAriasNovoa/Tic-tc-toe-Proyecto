@@ -214,6 +214,7 @@ function actualizarTablero(idBotonG) {
             }
         }
     }
+    reset()
 }
 
 var contadorGanes=document.getElementById("circulitos")

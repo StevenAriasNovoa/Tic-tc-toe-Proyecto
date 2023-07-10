@@ -157,6 +157,13 @@ background-color: aliceblue;
     display: flex;
 }
 
+#audio {
+    width: 100%; 
+    background-color: rgba(221, 250, 0, 0.347);
+    display: flex;
+    justify-items: center;
+}
+
 body {
     font-family: "Open Sans", -apple-system, 
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, 
